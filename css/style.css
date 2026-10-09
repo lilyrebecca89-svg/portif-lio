@@ -1,0 +1,21 @@
+.conteiner{
+    display: grid;
+
+}
+
+.conteiner div{
+    border: #000 1px solid;
+    width: 100%;
+}
+
+.header{
+    height: 100px;
+}
+
+.main{
+    height: 600px;
+}
+.footer{
+    height: 100px;
+
+}
