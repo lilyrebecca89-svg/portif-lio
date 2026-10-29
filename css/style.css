@@ -13,6 +13,11 @@ nav li{
 
 }
 
+#sobre{
+     border: #000 1px solid;
+    width: 100%;
+}
+
 .conteiner div{
     border: #000 1px solid;
     width: 100%;
@@ -30,16 +35,18 @@ nav li{
 .main{
     height: 600px;
 }
-.footer{
-    height: 100px;
-}
+
 .footer {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;}
+  align-items: center;
+height: 100px;}
 
   .footer a{
     display: inline-flex;
   }
-
+  
+  #fomação{border: #000 1px solid;
+    width: 100%;}   
+    
   

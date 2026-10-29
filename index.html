@@ -28,19 +28,84 @@
             
 
           
-            <section id="sobre"><h2>Sobre mim
+            <section id="sobre">Sobre mim
 Sou técnica de TI em formação pelo SENAC, com base em Administração. Já concluí as etapas de Suporte e Manutenção e de Redes, e hoje estudo desenvolvimento web. Unir infraestrutura, processos e tecnologia é o que guia meu trabalho.
 Minha trajetória começou pela saúde: sou vegetariana desde criança e estudei Nutrição. Depois vim para a Administração, por acreditar que organização e educação financeira são base para qualquer área. Cheguei à TI por curiosidade, porque ela está em tudo e muda o mundo em ritmo acelerado.
-</h2>
+
+</section>
+            <section id="habilidades"> <p>Suporte e Manutenção: manutenção preventiva e corretiva, diagnóstico de hardware, instalação de sistemas, custo-benefício para o cliente.
+Redes e Servidores: Ubuntu Server, Windows Server, IP, DNS local, UFW, VMware, certificado de proxy.
+Desenvolvimento: Docker, Docker Compose, HTML e CSS (em aprendizado).
+Gestão e Atendimento: atendimento ao público, organização de documentos, Office e Google Workspace.
+</p>
+ </section>
+
+            <section id="projetos"><p>Projeto 1: Deploy do Calibre-Web Automated com Docker
+
+Contexto: Projeto Integrador do curso de TI do SENAC.
+
+Objetivo: montar um servidor de biblioteca digital que armazena e organiza livros (PDFs e EPUBs) e pode ser acessado pela rede local.
+
+Ambiente
+
+Máquina virtual no VMware, com Ubuntu Server
+Endereçamento IP e topologia de rede definidos por mim
+DNS local configurado
+Docker e Docker Compose instalados no servidor
+
+Etapas realizadas
+
+Criei e especifiquei a máquina virtual no VMware.
+Instalei o Ubuntu Server e configurei IP e DNS local.
+Extraí e instalei o certificado do proxy corporativo.
+Instalei o Docker e o Docker Compose.
+Subi o Calibre-Web Automated em contêiner.
+Fiz o primeiro acesso e configurei a biblioteca e os usuários, com permissões diferentes.
+Testei o envio de PDFs e EPUBs e a busca automática de metadados e capas.
+
+Principal desafio: certificado do proxy corporativo
+
+Problema: o proxy da rede inspeciona o tráfego seguro, e o servidor não conseguia baixar o que precisava por não confiar no certificado dele.
+Solução: extraí o certificado do proxy e o instalei no Ubuntu Server para o sistema passar a confiar nele.
+Aprendizado: ambientes corporativos têm camadas de segurança que mudam o jeito de instalar serviços.
+
+Resultado: biblioteca digital funcionando em contêiner [número de livros e dispositivos de acesso, se lembrar].
+
+Tecnologias: Ubuntu Server, VMware, Docker, Docker Compose, DNS local, redes.
+
+Evidências para o card: print da tela do Calibre-Web, do terminal com o Docker rodando e da topologia de rede.</p>
+
+<p> 2: Oficina de Ressurreição de Hardware
+
+Contexto: revitalização de um notebook com software de código aberto, documentada em relatório e apresentação.
+
+Equipamento: Lenovo Ideapad 320-15IAP, Celeron N3350, 4 GB de RAM e HDD Western Digital de 1 TB (5400 RPM).
+
+Problema (Windows 10)
+
+Memória: cerca de 3,0 GB (75%) dos 4 GB em uso com o sistema parado, o que forçava o uso do disco como memória virtual.
+Disco em 100%: leituras e escritas em segundo plano (telemetria, indexação e Windows Update) travavam os programas.
+Causa: o Windows 10 foi pensado para SSDs e é pesado demais para um processador de baixo consumo e um HDD lento.
+
+Diagnóstico físico
+
+Inspeção interna e limpeza do acúmulo de poeira nas saídas de ar
+Limpeza do sistema de arrefecimento e validação da pasta térmica
+Verificação física do HDD
+Temperatura estável em 41°C, o que descartou superaquecimento como causa da lentidão
+</p>
+
 
             </section>
-            <section id="habilidades"> </section>
+            <section id="formação">Formação
 
-            <section id="projetos">
+<li>Técnico em Informática, SENAC (em andamento)</li>
+<li>Administração, Instituição Metropolitana (3º semestre concluído)</li>
+<li>Técnico em Administração, ETEC (2022)</li>
+<li>Técnico em Nutrição e Dietética, ETEC (2019)</li>
+<li>Cursos: Assistente de Suporte e Manutenção de Computadores; Assistente de Operação de Redes</li>
+<li>Voluntariado, Apoio Fiscal (IR), 1 mês: projeto supervisionado por professores, com atendimento ao público, organização de documentos e preenchimento no Programa IRPF.
 
-
-            </section>
-            <section id="formação">
             </section>
 
 
