@@ -2,114 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <li><a href="#hero" class="active">Início</a></li>
-            <li><a href="sobre" class="active">Sobre Mim</a></li>
-            <li><a href="habilidades" class="active">Habilidades</a></li>
-            <li><a href="projetos" class="active">Projetos</a></li>
-            <li><a href="contatos" class="active">Contatos</a> </li>
-        </nav>
+  <header>
+    <nav>
+      <li><a href="#hero" class="active">Início</a></li>
+      <li><a href="sobre" class="active">Sobre Mim</a></li>
+      <li><a href="habilidades" class="active">Habilidades</a></li>
+      <li><a href="projetos" class="active">Projetos</a></li>
+      <li><a href="contatos" class="active">Contatos</a> </li>
+    </nav>
 
 
 
-        <main>
-            <hero>
-          <!--Card 1  -->
-        <div class="flip-card-container">
-          <div class="flip-card-inner">
-            <div class="flip-card-front"><img src="imagens/Gemini_Generated_Image_rya6n2rya6n2rya6.jpg" width="370" alt=""></div>
-            <div class="flip-card-back"><ul>
-                <li> Revitalização de um notebook com software de código aberto. Causa: o Windows 10 foi pensado para SSDs e é pesado demais para um processador de baixo consumo e um HDD lento. 
-                <li>Problema (Windows 10) Memória: cerca de 3,0 GB (75%) dos 4 GB em uso com o sistema parado, o que forçava o uso do disco como memória virtual. Disco em 100%: leituras e escritas em segundo plano travavam os programas.</li>
-                <li>Solução: troca do Windows por Linux (zorin), mais leve e de código aberto.</li>
-            </ul></div>
+    <main>
+      <hero>
+<img src="" alt="">
+      </hero>
+
+
+
+      <section id="sobre">Sobre mim
+        Sou técnica de TI em formação pelo SENAC, com base em Administração. Já concluí as etapas de Suporte e
+        Manutenção e de Redes, e hoje estudo desenvolvimento web. Unir infraestrutura, processos e tecnologia é o que
+        guia meu trabalho.
+        Minha trajetória começou pela saúde: sou vegetariana desde criança e estudei Nutrição. Depois vim para a
+        Administração, por acreditar que organização e educação financeira são base para qualquer área. Cheguei à TI por
+        curiosidade, porque ela está em tudo e muda o mundo em ritmo acelerado.
+
+      </section>
+      <section id="habilidades">
+        <p>Suporte e Manutenção: manutenção preventiva e corretiva, diagnóstico de hardware, instalação de sistemas,
+          custo-benefício para o cliente.
+          Redes e Servidores: Ubuntu Server, Windows Server, IP, DNS local, UFW, VMware, certificado de proxy.
+          Desenvolvimento: Docker, Docker Compose, HTML e CSS (em aprendizado).
+          Gestão e Atendimento: atendimento ao público, organização de documentos, Office e Google Workspace.
+        </p>
+      </section>
+
+
+
+
+      </section>
+      <section id="formação">Formação
+
+        <li>Técnico em Informática, SENAC (em andamento)</li>
+        <li>Administração, Instituição Metropolitana (3º semestre concluído)</li>
+        <li>Técnico em Administração, ETEC (2022)</li>
+        <li>Técnico em Nutrição e Dietética, ETEC (2019)</li>
+        <li>Cursos: Assistente de Suporte e Manutenção de Computadores; Assistente de Operação de Redes</li>
+        <li>Voluntariado, Apoio Fiscal (IR), 1 mês: projeto supervisionado por professores, com atendimento ao público,
+          organização de documentos e preenchimento no Programa IRPF.
+
+      </section>
+
+
+
+    </main>
+
+
+    <div class="conteiner">
+      <!--Card 1  -->
+      <div class="flip-card-container">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="imagens/Gemini_Generated_Image_rya6n2rya6n2rya6.jpg" width="370"
+              alt=""></div>
+          <div class="flip-card-back">
+            <ul>
+              <li> Revitalização de um notebook com software de código aberto. Causa: o Windows 10 foi pensado para SSDs
+                e é pesado demais para um processador de baixo consumo e um HDD lento.
+              <li>Problema (Windows 10) Memória: cerca de 3,0 GB (75%) dos 4 GB em uso com o sistema parado, o que
+                forçava o uso do disco como memória virtual. Disco em 100%: leituras e escritas em segundo plano
+                travavam os programas.</li>
+              <li>Solução: troca do Windows por Linux (zorin), mais leve e de código aberto.</li>
+            </ul>
           </div>
         </div>
-          <!-- Card 2 -->
-           <div class="flip-card-container">
-          <div class="flip-card-inner">
-            <div class="flip-card-front"><img src="imagens/image_6961b57d (1).jpg" width="370" alt=""></div>
-            <div class="flip-card-back"><ul>
-                <li> Deploy do Calibre-Web Automated com Docker</li>
-                <li>Montar um servidor de biblioteca digital que armazena e organiza livros (PDFs e EPUBs) e pode ser acessado pela rede local.</li>
-                <li>Máquina virtual no VMware, com Ubuntu Server
-Endereçamento IP e topologia de rede definidos por mim
-DNS local configurado
-Docker e Docker Compose instalados no servidor
-</li>
-<li>Criei e especifiquei a máquina virtual no VMware.
-Instalei o Ubuntu Server e configurei IP e DNS local.
-Extraí e instalei o certificado do proxy corporativo.
-Instalei o Docker e o Docker Compose.
-Subi o Calibre-Web Automated em contêiner.
-Fiz o primeiro acesso e configurei a biblioteca e os usuários, com permissões diferentes.
-Testei o envio de PDFs e EPUBs e a busca automática de metadados e capas.
-</li>
-            </ul></div>
+      </div>
+      <!-- Card 2 -->
+      <div class="flip-card-container">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="imagens/image_6961b57d (1).jpg" width="370" alt=""></div>
+          <div class="flip-card-back">
+            <ul>
+              <li> Deploy do Calibre-Web Automated com Docker</li>
+              <li>Montar um servidor de biblioteca digital que armazena e organiza livros (PDFs e EPUBs) e pode ser
+                acessado pela rede local.</li>
+              <li>Máquina virtual no VMware, com Ubuntu Server
+                Endereçamento IP e topologia de rede definidos por mim
+                DNS local configurado
+                Docker e Docker Compose instalados no servidor
+              </li>
+              <li>Criei e especifiquei a máquina virtual no VMware.
+                Instalei o Ubuntu Server e configurei IP e DNS local.
+                Extraí e instalei o certificado do proxy corporativo.
+                Instalei o Docker e o Docker Compose.
+                Subi o Calibre-Web Automated em contêiner.
+                Fiz o primeiro acesso e configurei a biblioteca e os usuários, com permissões diferentes.
+                Testei o envio de PDFs e EPUBs e a busca automática de metadados e capas.
+              </li>
+            </ul>
           </div>
         </div>
-        <!-- Card 3 -->
-           <div class="flip-card-container">
-          <div class="flip-card-inner">
-            <div class="flip-card-front"><img src="imagens/Gemini_Generated_Image_rya6n2rya6n2rya6.jpg" width="370" alt=""></div>
-            <div class="flip-card-back"><ul>
-                <li> Revitalização de um notebook com software de código aberto. Causa: o Windows 10 foi pensado para SSDs e é pesado demais para um processador de baixo consumo e um HDD lento. 
-                <li>Problema (Windows 10) Memória: cerca de 3,0 GB (75%) dos 4 GB em uso com o sistema parado, o que forçava o uso do disco como memória virtual. Disco em 100%: leituras e escritas em segundo plano travavam os programas.</li>
-                <li>Solução: troca do Windows por Linux (zorin), mais leve e de código aberto.</li>
-            </ul></div>
+      </div>
+      <!-- Card 3 -->
+      <div class="flip-card-container">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="imagens/Gemini_Generated_Image_rya6n2rya6n2rya6.jpg" width="370"
+              alt=""></div>
+          <div class="flip-card-back">
+            <ul>
+              <li> Revitalização de um notebook com software de código aberto. Causa: o Windows 10 foi pensado para SSDs
+                e é pesado demais para um processador de baixo consumo e um HDD lento.
+              <li>Problema (Windows 10) Memória: cerca de 3,0 GB (75%) dos 4 GB em uso com o sistema parado, o que
+                forçava o uso do disco como memória virtual. Disco em 100%: leituras e escritas em segundo plano
+                travavam os programas.</li>
+              <li>Solução: troca do Windows por Linux (zorin), mais leve e de código aberto.</li>
+            </ul>
           </div>
         </div>
-</hero>
-            
+      </div>
+    </div>
+    <div class="main">
+    </div>
+    <section id="habilidades">
 
-          
-            <section id="sobre">Sobre mim
-Sou técnica de TI em formação pelo SENAC, com base em Administração. Já concluí as etapas de Suporte e Manutenção e de Redes, e hoje estudo desenvolvimento web. Unir infraestrutura, processos e tecnologia é o que guia meu trabalho.
-Minha trajetória começou pela saúde: sou vegetariana desde criança e estudei Nutrição. Depois vim para a Administração, por acreditar que organização e educação financeira são base para qualquer área. Cheguei à TI por curiosidade, porque ela está em tudo e muda o mundo em ritmo acelerado.
-
-</section>
-            <section id="habilidades"> <p>Suporte e Manutenção: manutenção preventiva e corretiva, diagnóstico de hardware, instalação de sistemas, custo-benefício para o cliente.
-Redes e Servidores: Ubuntu Server, Windows Server, IP, DNS local, UFW, VMware, certificado de proxy.
-Desenvolvimento: Docker, Docker Compose, HTML e CSS (em aprendizado).
-Gestão e Atendimento: atendimento ao público, organização de documentos, Office e Google Workspace.
-</p>
- </section>
-
-        
-
-
-            </section>
-            <section id="formação">Formação
-
-<li>Técnico em Informática, SENAC (em andamento)</li>
-<li>Administração, Instituição Metropolitana (3º semestre concluído)</li>
-<li>Técnico em Administração, ETEC (2022)</li>
-<li>Técnico em Nutrição e Dietética, ETEC (2019)</li>
-<li>Cursos: Assistente de Suporte e Manutenção de Computadores; Assistente de Operação de Redes</li>
-<li>Voluntariado, Apoio Fiscal (IR), 1 mês: projeto supervisionado por professores, com atendimento ao público, organização de documentos e preenchimento no Programa IRPF.
-
-            </section>
-
-
-            </section>
-        </main>
-
-
-        <div class="conteiner">
-
-            <div class="main">
-            </div>
-            <section id="habilidades">
-
-            </section>
+    </section>
 
 
 
@@ -117,16 +140,15 @@ Gestão e Atendimento: atendimento ao público, organização de documentos, Off
 
 
 
-            <div class="footer">Contato lilyrebecca89@gmail.com
-                    <a
-                        href="https://www.linkedin.com/in/rebecca-lily-gomes-043b0141a">Linkedin</a>
+    <div class="footer">Contato lilyrebecca89@gmail.com
+      <a href="https://www.linkedin.com/in/rebecca-lily-gomes-043b0141a">Linkedin</a>
 
-                    <a href="https://www.instagram.com/rebeccallily">instagram</a>
-            </div>
+      <a href="https://www.instagram.com/rebeccallily">instagram</a>
+    </div>
 
 
-            
-        </div>
+
+    </div>
 </body>
 
 </html>

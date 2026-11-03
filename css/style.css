@@ -21,7 +21,8 @@ nav li{
 }
 
 .conteiner{
-    display: grid;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -32,7 +33,7 @@ nav li{
 
 .conteiner div{
     border: #000 1px solid;
-    width: 100%;
+    width: 370px;
 }
 
 .hero{
