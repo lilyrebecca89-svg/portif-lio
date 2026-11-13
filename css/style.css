@@ -119,3 +119,14 @@ hero{
 
 
 
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;       /* Faz a imagem ocupar 100% da largura da tela */
+  height: auto;      /* Mantém a proporção original sem esticar ou amassar */
+  display: block;    /* Remove um pequeno espaço em branco que fica abaixo da imagem */
+}
+
