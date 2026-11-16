@@ -130,3 +130,15 @@ hero{
   display: block;    /* Remove um pequeno espaço em branco que fica abaixo da imagem */
 }
 
+
+#habilidades{
+  background-color: #fff;
+  margin: 0 20%;
+  padding: 100px;
+  .sancreek-regular {
+  font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
