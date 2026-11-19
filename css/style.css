@@ -142,3 +142,60 @@ hero{
 }
 
 }
+
+.atalhos/* Estilo da barra de navegação */
+nav {
+  width: 100%;
+  height: 60px; /* Altura ideal entre 60px e 80px */
+  display: flex;
+  justify-content: center; /* Centraliza os itens na horizontal */
+  align-items: center; /* Centraliza os itens na vertical */
+  gap: 40px; /* Espaço equilibrado entre cada link */
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #151515 0%, #08a8e7 35%, #030303 100%);
+}
+
+/* Estilo dos links do menu */
+nav a {
+  color: #121010; /* Branco para dar contraste com o fundo azul */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-family: sans-serif;
+  font-size: 16px; /* Tamanho padrão de leitura (16px a 18px) */
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  width: 100%;
+  height: 45px; /* Tamanho compacto, combinando com a barra do topo */
+  display: flex;
+  justify-content: space-around; /* Distribui o e-mail e as redes igualmente */
+  align-items: center; /* Centraliza tudo na vertical */
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #020024 0%, #095979 35%, #101010 100%);
+  color: #ffffff; /* Deixa o texto "Contato..." branco */
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* Estilo dos links (LinkedIn e Instagram) no rodapé */
+.footer a {
+  color: #e3faf5; /* Branco para dar leitura no fundo azul */
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+  font-family: border-box;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
