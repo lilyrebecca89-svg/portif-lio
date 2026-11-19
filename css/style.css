@@ -28,7 +28,6 @@ nav li{
 
 #sobre{
      border: #000 1px solid;
-    width: 100%;
 }
 
 .conteiner div{
@@ -129,19 +128,27 @@ hero{
   height: auto;      /* Mantém a proporção original sem esticar ou amassar */
   display: block;    /* Remove um pequeno espaço em branco que fica abaixo da imagem */
 }
-
-
-#habilidades{
+.cartao{
   background-color: #fff;
   margin: 0 20%;
   padding: 100px;
+  border: #000 1px solid;
+  width: 800px;
+}
+/* 
+#sobre{
+  background-color: #fff;
+  margin: 0 20%;
+  padding: 100px;
+  width: 800px; */
+}
   .sancreek-regular {
   font-family: "Sancreek", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-}
+
 
 .atalhos/* Estilo da barra de navegação */
 nav {
