@@ -96,7 +96,7 @@ height: 100px;}
   border-radius: 8px;
   font-weight: bold;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .flip-card-front {
@@ -162,7 +162,7 @@ nav {
   display: flex;
   justify-content: center; /* Centraliza os itens na horizontal */
   align-items: center; /* Centraliza os itens na vertical */
-  gap: 40px; /* Espaço equilibrado entre cada link */
+  gap: 5%; /* Espaço equilibrado entre cada link */
   padding: 0 20px;
   box-sizing: border-box;
   background: linear-gradient(90deg, #151515 0%, #08a8e7 35%, #030303 100%);
@@ -173,7 +173,7 @@ nav a {
   color: #121010; /* Branco para dar contraste com o fundo azul */
   text-decoration: none; /* Remove o sublinhado padrão */
   font-family: sans-serif;
-  font-size: 16px; /* Tamanho padrão de leitura (16px a 18px) */
+  font-size: 2vw; /* Tamanho padrão de leitura (16px a 18px) */
   font-weight: 500;
   transition: opacity 0.3s;
 }
@@ -344,6 +344,11 @@ nav a:hover {
   font-size: 0.88rem;
   color: #64748b;
   margin-top: 2px;
+}
+
+#habilidades, #formacao{
+  width: 97%;
+  padding: 9px;
 }
 
 /* Responsividade para Celulares */
