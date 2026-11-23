@@ -6,82 +6,136 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Sancreek&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
   <header>
-   <div class="atalhos"> <nav>
-      <li><a href="#hero" class="active">Início</a></li>
-      <li><a href="#sobre" class="active">Sobre Mim</a></li>
-      <li><a href="#habilidades" class="active">Habilidades</a></li>
-      <li><a href="#projetos" class="active">Projetos</a></li>
-      <li><a href="#contatos" class="active">Contatos</a> </li>
-    </nav> </div>
-
-
-
-    <!-- <main>
-      <hero>
-      <div><img src="imagens/image_fd10b3d6.jpg" alt=""></div>
-      <main>
-   -->
-        <main>
-  <section class="hero" id="hero">
-    <div>
-      <img src="imagens/image_fd10b3d6.jpg" alt="Banner Estudante de tecnologia - Prática e aprendizado em TI">
+    <div class="atalhos">
+      <nav>
+        <li><a href="#hero" class="active">Início</a></li>
+        <li><a href="#sobre" class="active">Sobre Mim</a></li>
+        <li><a href="#habilidades" class="active">Habilidades</a></li>
+        <li><a href="#projetos" class="active">Projetos</a></li>
+        <li><a href="#contatos" class="active">Contatos</a> </li>
+      </nav>
     </div>
-  </section>
-</main>
 
+    <main class="portfolio-container">
+      <section class="hero" id="hero">
+        <div>
+          <img src="imagens/image_fd10b3d6.jpg" alt="Banner Estudante de tecnologia - Prática e aprendizado em TI">
+        </div>
+      </section>
+   
 
+ <!-- Seção Sobre Mim -->
+    <section id="sobre" class="cartao sobre-mim">
+      <h2>Sobre mim</h2>
+      
+      <blockquote class="destaque">
+        "Unir infraestrutura, processos e tecnologia é o que guia meu trabalho."
+      </blockquote>
 
-      </hero>
-    
-      </hero>
-
-
-
-      <section id="sobre" class="cartao">Sobre mim
+      <p>
         Sou técnica de TI em formação pelo SENAC, com base em Administração. Já concluí as etapas de Suporte e
-        Manutenção e de Redes, e hoje estudo desenvolvimento web. Unir infraestrutura, processos e tecnologia é o que
-        guia meu trabalho.
-        Minha trajetória começou pela saúde: sou vegetariana desde criança e estudei Nutrição. Depois vim para a
-        Administração, por acreditar que organização e educação financeira são base para qualquer área. Cheguei à TI por
-        curiosidade, porque ela está em tudo e muda o mundo em ritmo acelerado.
+        Manutenção e de Redes, e hoje estudo desenvolvimento web.
+      </p>
+      <p>
+      Minha trajetória começou pela saúde: sou vegetariana desde criança e estudei Nutrição. Depois vim para a Administração, por acreditar que organização e educação financeira são base para qualquer área. Cheguei à TI por curiosidade, porque ela está em tudo e muda o mundo em ritmo acelerado
+      </p>
+    </section>
 
-      </section>
+    <!-- Grid com Habilidades e Formação lado a lado -->
+    <div class="grid-duplo">
+      
+      <!-- Seção Habilidades -->
       <section id="habilidades" class="cartao">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Sancreek&display=swap" rel="stylesheet">
-        <p>Suporte e Manutenção: manutenção preventiva e corretiva, diagnóstico de hardware, instalação de sistemas,
-          custo-benefício para o cliente.
-          Redes e Servidores: Ubuntu Server, Windows Server, IP, DNS local, UFW, VMware, certificado de proxy.
-          Desenvolvimento: Docker, Docker Compose, HTML e CSS (em aprendizado).
-          Gestão e Atendimento: atendimento ao público, organização de documentos, Office e Google Workspace.
-        </p>
+        <h2>Habilidades Técnicas</h2>
+
+        <div class="grupo-habilidade">
+          <h3>Suporte e Manutenção</h3>
+          <div class="tags">
+            <span class="tag">Manutenção preventiva e corretiva</span>
+            <span class="tag">Diagnóstico de hardware</span>
+            <span class="tag">Instalação de sistemas</span>
+            <span class="tag">Custo-benefício para o cliente</span>
+          </div>
+        </div>
+
+        <div class="grupo-habilidade">
+          <h3>Redes e Servidores</h3>
+          <div class="tags">
+            <span class="tag">Ubuntu Server</span>
+            <span class="tag">Windows Server</span>
+            <span class="tag">IP</span>
+            <span class="tag">DNS local</span>
+            <span class="tag">UFW</span>
+            <span class="tag">VMware</span>
+            <span class="tag">Certificado de proxy</span>
+          </div>
+        </div>
+
+        <div class="grupo-habilidade">
+          <h3>Desenvolvimento</h3>
+          <div class="tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Docker Compose</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS (em aprendizado)</span>
+          </div>
+        </div>
+
+        <div class="grupo-habilidade">
+          <h3>Gestão e Atendimento</h3>
+          <div class="tags">
+            <span class="tag">Atendimento ao público</span>
+            <span class="tag">Organização de documentos</span>
+            <span class="tag">Office</span>
+            <span class="tag">Google Workspace</span>
+          </div>
+        </div>
       </section>
 
+      <!-- Seção Formação -->
+      <section id="formacao" class="cartao">
+        <h2>Formação e Experiência</h2>
 
-
-
+        <ul class="lista-formacao">
+          <li>
+            <strong>Técnico em Informática (em andamento)</strong>
+            <span>SENAC</span>
+          </li>
+          <li>
+            <strong>Administração (3º semestre concluído)</strong>
+            <span>Instituição Metropolitana</span>
+          </li>
+          <li>
+            <strong>Técnico em Administração (2022)</strong>
+            <span>ETEC</span>
+          </li>
+          <li>
+            <strong>Técnico em Nutrição e Dietética (2019)</strong>
+            <span>ETEC</span>
+          </li>
+          <li>
+            <strong>Cursos Complementares</strong>
+            <span>Assistente de Suporte e Manutenção de Computadores; Assistente de Operação de Redes</span>
+          </li>
+          <li>
+            <strong>Voluntariado — Apoio Fiscal (IR) • 1 mês</strong>
+            <span>Projeto supervisionado por professores, com atendimento ao público, organização de documentos e preenchimento no Programa IRPF.</span>
+          </li>
+        </ul>
       </section>
-      <section id="formação" class="cartao">Formação
 
-        <li>Técnico em Informática, SENAC (em andamento)</li>
-        <li>Administração, Instituição Metropolitana (3º semestre concluído)</li>
-        <li>Técnico em Administração, ETEC (2022)</li>
-        <li>Técnico em Nutrição e Dietética, ETEC (2019)</li>
-        <li>Cursos: Assistente de Suporte e Manutenção de Computadores; Assistente de Operação de Redes</li>
-        <li>Voluntariado, Apoio Fiscal (IR), 1 mês: projeto supervisionado por professores, com atendimento ao público,
-          organização de documentos e preenchimento no Programa IRPF.
-
-      </section>
-
-
-
-    </main>
+    </div>
+  
 
 
     <div class="conteiner" id="projetos">
@@ -154,7 +208,7 @@
 
 
 
-
+ </main>
 
 
 
@@ -169,4 +223,4 @@
     </div>
 </body>
 
-</html>      
+</html>

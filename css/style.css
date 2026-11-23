@@ -8,6 +8,7 @@
 body{
   background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 95, 121, 1) 35%, rgba(0, 76, 255, 1) 100%);
+padding: 10%;
 }
 
 nav{
@@ -22,7 +23,9 @@ nav li{
 
 .conteiner{
     display: flex;
-    justify-content: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
 
 }
 
@@ -44,9 +47,7 @@ nav li{
     height: 100px;
 }
 
-.main{
-    height: 600px;
-}
+
 
 .footer {
   display: flex;
@@ -130,10 +131,14 @@ hero{
 }
 .cartao{
   background-color: #fff;
-  margin: 0 20%;
-  padding: 100px;
+  /* margin: 0 20%; */
+  /* padding: 100px; */
   border: #000 1px solid;
-  width: 800px;
+  width: 100%;
+   
+  font-family: "Neuton", serif;
+
+
 }
 /* 
 #sobre{
@@ -205,4 +210,149 @@ nav a:hover {
 .footer a:hover {
   opacity: 0.7;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1100px){
+.conteiner{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+}
+/* Container Principal */
+.portfolio-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Estilo dos Cartões */
+.cartao {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+}
+
+.cartao h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+/* Seção Sobre Mim */
+.sobre-mim .destaque {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0284c7;
+  border-left: 4px solid #0284c7;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+.sobre-mim p {
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+.sobre-mim p:last-child {
+  margin-bottom: 0;
+}
+
+/* Grid de 2 Colunas (Habilidades e Formação) */
+.grid-duplo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Habilidades e Tags */
+.grupo-habilidade {
+  margin-bottom: 20px;
+}
+
+.grupo-habilidade:last-child {
+  margin-bottom: 0;
+}
+
+.grupo-habilidade h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 999px;
+  transition: background-color 0.2s;
+}
+
+.tag:hover {
+  background-color: #bae6fd;
+}
+
+/* Lista de Formação (Linha do Tempo) */
+.lista-formacao {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.lista-formacao li {
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid #cbd5e1;
+}
+
+/* Bolinha azul na linha do tempo */
+.lista-formacao li::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #0284c7;
+}
+
+.lista-formacao strong {
+  display: block;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.lista-formacao span {
+  display: block;
+  font-size: 0.88rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 768px) {
+  .grid-duplo {
+    grid-template-columns: 1fr;
+  }
+
+  .cartao {
+    padding: 24px;
+  }
 }
